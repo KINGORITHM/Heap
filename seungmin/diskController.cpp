@@ -55,7 +55,6 @@ int solution(vector<vector<int>> jobs) {
             answer += (end + (time - in));
             time += end;
             count++;
-            continue;
         }
         else{
             if((index + 1) < jobs.size()){
